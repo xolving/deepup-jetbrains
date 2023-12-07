@@ -1,0 +1,14 @@
+{
+  "name": "deepup-dark",
+  "author": "xolving",
+  "dark": true,
+  "colors": {
+    "firstBlack": "#0c0c11",
+    "secondBlack": "#141416"
+  },
+  "ui": {
+    "*": {
+      "background": "firstBlack"
+    }
+  }
+}

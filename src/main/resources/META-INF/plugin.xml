@@ -1,0 +1,16 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.xolving.deepup</id>
+    <name>deepup</name>
+    <vendor email="me@xolving.com" url="https://www.xolving.com">xolving</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <description><![CDATA[
+    <h1>asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</h1>
+    ]]></description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.xolving.deepup" path="/theme/deepup-dark.theme.json"/>
+    </extensions>
+</idea-plugin>
