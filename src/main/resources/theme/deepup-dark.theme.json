@@ -3,12 +3,21 @@
   "author": "xolving",
   "dark": true,
   "colors": {
-    "firstBlack": "#0c0c11",
-    "secondBlack": "#141416"
+    "point_purple": "#6a22b2",
+    "hard_purple": "#2e1a48",
+    "point_black": "#0c0c11",
+    "sub_black": "#141416"
   },
   "ui": {
     "*": {
-      "background": "firstBlack"
+      "background": "point_black",
+
+      "selectionBackground": {
+        "os.default": "hard_purple",
+        "os.windows": "hard_purple",
+        "os.mac": "hard_purple"
+      },
+      "borderColor": "point_black"
     }
   }
 }
